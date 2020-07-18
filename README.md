@@ -9,7 +9,11 @@ da
 sd
 a
 sd
+<<<<<<< HEAD
 aszxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+=======
+as
+>>>>>>> master
 d
 asd
 a
