@@ -18,8 +18,35 @@
         TextOptions.TextRenderingMode="Auto"        
         Background="{DynamicResource MaterialDesignPaper}"
         FontFamily="{DynamicResource MaterialDesignFont}">
-    
+
     <Grid>
-        <Image Margin="1092,696,795.6,351.6" Source="icons8_facebook_26px.png" Stretch="Fill"/>
+        <Image Margin="896,401,889,537" Source="icons8_facebook_26px.png" Stretch="Fill"/>
+        <!--ปุ่มควบคุม-->
+        <StackPanel
+                Orientation="Horizontal"
+                HorizontalAlignment="Center"
+                Margin="857,172,827,-142">
+
+            <!--ปุ่มล็อกอิน-->
+
+            <!--ปุ่มปิดโปรแกรม-->
+            <!--ปุ่มล็อกอิน-->
+
+            <!--ปุ่มปิดโปรแกรม-->
+            <!--ปุ่มล็อกอิน-->
+            <Button Content="เข้าสู่ระบบ"
+                        Margin="0,495,20,515"
+                        Cursor="Hand"
+                        Click="Button_Click_1"/>
+
+            <!--ปุ่มปิดโปรแกรม-->
+            <Button 
+                    Margin="0 0 0 20"
+                    Content="ออกจากโปรแกรม"
+                    Cursor="Hand"
+                    Click="Button_Click"
+                    />
+        </StackPanel>
+
     </Grid>
 </Window>
