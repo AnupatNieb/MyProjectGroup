@@ -1,0 +1,98 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1080" Width="1920"
+        WindowState="Maximized"
+        WindowStyle="None"
+        
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal" 
+        TextOptions.TextRenderingMode="Auto"        
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}">
+
+    <Grid>
+
+        <Grid.Background>
+            <ImageBrush ImageSource="BGG(ตัดรูป2).png" Stretch="UniformToFill"/>
+        </Grid.Background>
+
+        <StackPanel HorizontalAlignment="Center" 
+                    VerticalAlignment="Center" Height="488"  Width="422" 
+                    >
+
+            <StackPanel.Background>
+                <SolidColorBrush Color="Black" Opacity="0.3"/>
+            </StackPanel.Background>
+
+            <!--รูป-->
+            <Image
+                Width="184"
+                Height="182"
+                Margin="0 20 0 20"
+                Source="unknown.png"
+                Stretch="Uniform"/>
+
+
+
+            <!--กล่องชื่อผู้ใช้-->
+            <TextBox x:Name="UsernameBox"
+                       Width="288"
+                       materialDesign:HintAssist.Hint ="ชื่อผู้ใช้"
+                       Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                       HorizontalAlignment="Center"
+                       
+                       Margin="20 0 20 20"
+                       FontFamily="Angsana New" 
+                       FontSize="25" Foreground="#DDFFFFFF">
+                <TextBox.Background>
+                    <ImageBrush/>
+                </TextBox.Background>
+            </TextBox>
+
+            <!--กล่องรหัสผ่าน-->
+            <PasswordBox x:Name="PasswordBox"
+                         Width="288"
+                         HorizontalAlignment="Center"
+                         Margin="20 10 20 0"
+                         FontFamily="Angsana New"
+                         FontSize="25"
+                         materialDesign:HintAssist.Hint ="รหัสผ่าน"
+                         Style="{StaticResource MaterialDesignFloatingHintPasswordBox}" Foreground="#DDFFFFFF" KeyDown="PasswordBox_KeyDown"/>
+
+
+            <!--ปุ่มควบคุม-->
+            <StackPanel
+                Orientation="Horizontal"
+                HorizontalAlignment="Center"
+                Margin="0 30 0 0">
+
+                <!--ปุ่มล็อกอิน-->
+                <Button Content="เข้าสู่ระบบ"
+                        Margin="0 0 20 20"
+                        Cursor="Hand"
+                        Click="Button_Click_1"/>
+
+                <!--ปุ่มปิดโปรแกรม-->
+                <Button 
+                    Margin="0 0 0 20"
+                    Content="ออกจากโปรแกรม"
+                    Cursor="Hand"
+                    Click="Button_Click"
+                    />
+
+
+
+            </StackPanel>
+
+        </StackPanel>
+
+    </Grid>
+</Window>
