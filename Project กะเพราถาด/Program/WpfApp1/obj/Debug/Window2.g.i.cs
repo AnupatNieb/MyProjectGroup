@@ -41,7 +41,7 @@ namespace WpfApp1 {
     public partial class Window2 : System.Windows.Window, System.Windows.Markup.IComponentConnector {
         
         
-        #line 20 "..\..\Window2.xaml"
+        #line 22 "..\..\Window2.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Image Image_CEO;
         
@@ -49,7 +49,7 @@ namespace WpfApp1 {
         #line hidden
         
         
-        #line 21 "..\..\Window2.xaml"
+        #line 23 "..\..\Window2.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Label NAME_CEO;
         
@@ -57,7 +57,7 @@ namespace WpfApp1 {
         #line hidden
         
         
-        #line 22 "..\..\Window2.xaml"
+        #line 24 "..\..\Window2.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Label ตำแหน่ง;
         

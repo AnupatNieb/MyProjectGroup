@@ -50,8 +50,9 @@
             <!--ปุ่มเมนู-->
             <Button Content="เมนูต่าง ๆ "
                    HorizontalAlignment="Left"
-                   Height="70"
+                   Height="77"
                    Margin="94,400,0,0"
+                   Padding="0"
                    VerticalAlignment="Top"
                    Width="247"
                    FontFamily="FC Galaxy"
@@ -143,7 +144,9 @@
                     FontSize="42"
                     Background="#ffffff"
                     BorderBrush="Transparent" Height="48" Width="136"
+                    materialDesign:ButtonAssist.CornerRadius="25"
                     />
+            
 
             <StackPanel/>
 

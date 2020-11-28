@@ -6,6 +6,8 @@
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
         Title="Window2" Height="1080" Width="1980">
+    
+    
     <Grid>
         <Grid Margin="0,0,1550.6,0.4">
             <Rectangle Fill="#FF716058" HorizontalAlignment="Left" Stroke="Black" Width="400"/>
