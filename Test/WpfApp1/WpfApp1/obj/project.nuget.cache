@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "VV9DXriq/wyUaRQYZpY5PXZZ/xROAPzgByhF9BzOnQVIhLrho+fvKGmcXU0Pbn9KwLAT79joLM2p8DBimWnhdg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\niebz\\Desktop\\MyProjectGroup\\Test\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\niebz\\.nuget\\packages\\materialdesigncolors\\1.2.7\\materialdesigncolors.1.2.7.nupkg.sha512",
+    "C:\\Users\\niebz\\.nuget\\packages\\materialdesignthemes\\3.2.0\\materialdesignthemes.3.2.0.nupkg.sha512",
+    "C:\\Users\\niebz\\.nuget\\packages\\showmethexaml\\2.0.0\\showmethexaml.2.0.0.nupkg.sha512",
+    "C:\\Users\\niebz\\.nuget\\packages\\showmethexaml.msbuild\\2.0.0\\showmethexaml.msbuild.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
