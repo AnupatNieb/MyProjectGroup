@@ -76,3 +76,15 @@ C:\Users\cko78\OneDrive\Documents\GitHub\MyProjectGroup\Project กะเพร�
 C:\Users\cko78\OneDrive\Documents\GitHub\MyProjectGroup\Project กะเพราถาด\Program\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
 C:\Users\cko78\OneDrive\Documents\GitHub\MyProjectGroup\Project กะเพราถาด\Program\WpfApp1\obj\Debug\WpfApp1.exe
 C:\Users\cko78\OneDrive\Documents\GitHub\MyProjectGroup\Project กะเพราถาด\Program\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\cko78\OneDrive\Documents\GitHub\MyProjectGroup\Project กะเพราถาด\Program\WpfApp1\obj\Debug\Window1.g.cs
+C:\Users\cko78\OneDrive\Documents\GitHub\MyProjectGroup\Project กะเพราถาด\Program\WpfApp1\obj\Debug\Window2.g.cs
+C:\Users\cko78\OneDrive\Documents\GitHub\MyProjectGroup\Project กะเพราถาด\Program\WpfApp1\obj\Debug\Window3.g.cs
+C:\Users\cko78\OneDrive\Documents\GitHub\MyProjectGroup\Project กะเพราถาด\Program\WpfApp1\obj\Debug\Window4.g.cs
+C:\Users\cko78\OneDrive\Documents\GitHub\MyProjectGroup\Project กะเพราถาด\Program\WpfApp1\obj\Debug\Window5.g.cs
+C:\Users\cko78\OneDrive\Documents\GitHub\MyProjectGroup\Project กะเพราถาด\Program\WpfApp1\obj\Debug\Window6.g.cs
+C:\Users\cko78\OneDrive\Documents\GitHub\MyProjectGroup\Project กะเพราถาด\Program\WpfApp1\obj\Debug\Window1.baml
+C:\Users\cko78\OneDrive\Documents\GitHub\MyProjectGroup\Project กะเพราถาด\Program\WpfApp1\obj\Debug\Window2.baml
+C:\Users\cko78\OneDrive\Documents\GitHub\MyProjectGroup\Project กะเพราถาด\Program\WpfApp1\obj\Debug\Window3.baml
+C:\Users\cko78\OneDrive\Documents\GitHub\MyProjectGroup\Project กะเพราถาด\Program\WpfApp1\obj\Debug\Window4.baml
+C:\Users\cko78\OneDrive\Documents\GitHub\MyProjectGroup\Project กะเพราถาด\Program\WpfApp1\obj\Debug\Window5.baml
+C:\Users\cko78\OneDrive\Documents\GitHub\MyProjectGroup\Project กะเพราถาด\Program\WpfApp1\obj\Debug\Window6.baml
