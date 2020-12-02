@@ -43,30 +43,6 @@ namespace WpfApp1 {
     /// </summary>
     public partial class Window1 : System.Windows.Window, System.Windows.Markup.IComponentConnector {
         
-        
-        #line 113 "..\..\Window6.xaml"
-        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Image Image_CEO;
-        
-        #line default
-        #line hidden
-        
-        
-        #line 121 "..\..\Window6.xaml"
-        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Label NAME_CEO;
-        
-        #line default
-        #line hidden
-        
-        
-        #line 130 "..\..\Window6.xaml"
-        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Label position;
-        
-        #line default
-        #line hidden
-        
         private bool _contentLoaded;
         
         /// <summary>
@@ -95,18 +71,6 @@ namespace WpfApp1 {
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity")]
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1800:DoNotCastUnnecessarily")]
         void System.Windows.Markup.IComponentConnector.Connect(int connectionId, object target) {
-            switch (connectionId)
-            {
-            case 1:
-            this.Image_CEO = ((System.Windows.Controls.Image)(target));
-            return;
-            case 2:
-            this.NAME_CEO = ((System.Windows.Controls.Label)(target));
-            return;
-            case 3:
-            this.position = ((System.Windows.Controls.Label)(target));
-            return;
-            }
             this._contentLoaded = true;
         }
     }
