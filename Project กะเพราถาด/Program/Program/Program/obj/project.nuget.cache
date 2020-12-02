@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "CQ1lKfO2+UkFyMlkPHX8dUtRIicEUR3S/eUZyj0g+HUe6dMHrSkG+JHW6JDv/4GMNkTJZFyrsHPbe8eZJXsAfw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\niebz\\Desktop\\MyProjectGroup\\Project กะเพราถาด\\Program\\Program\\Program\\Program.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\niebz\\.nuget\\packages\\materialdesigncolors\\1.2.7\\materialdesigncolors.1.2.7.nupkg.sha512",
+    "C:\\Users\\niebz\\.nuget\\packages\\materialdesignthemes\\3.2.0\\materialdesignthemes.3.2.0.nupkg.sha512",
+    "C:\\Users\\niebz\\.nuget\\packages\\showmethexaml\\2.0.0\\showmethexaml.2.0.0.nupkg.sha512",
+    "C:\\Users\\niebz\\.nuget\\packages\\showmethexaml.msbuild\\2.0.0\\showmethexaml.msbuild.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

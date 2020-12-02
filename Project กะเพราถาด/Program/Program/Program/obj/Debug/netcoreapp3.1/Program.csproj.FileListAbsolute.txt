@@ -1,0 +1,5 @@
+C:\Users\niebz\Desktop\MyProjectGroup\Project กะเพราถาด\Program\Program\Program\obj\Debug\netcoreapp3.1\Program.csprojAssemblyReference.cache
+C:\Users\niebz\Desktop\MyProjectGroup\Project กะเพราถาด\Program\Program\Program\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\niebz\Desktop\MyProjectGroup\Project กะเพราถาด\Program\Program\Program\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\niebz\Desktop\MyProjectGroup\Project กะเพราถาด\Program\Program\Program\obj\Debug\netcoreapp3.1\Program_MarkupCompile.cache
+C:\Users\niebz\Desktop\MyProjectGroup\Project กะเพราถาด\Program\Program\Program\obj\Debug\netcoreapp3.1\Program_MarkupCompile.lref
