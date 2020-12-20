@@ -34,7 +34,7 @@
 
             <!--รูป-->
             <Image
-                Width="184"
+                Width="182"
                 Height="182"
                 Margin="0 20 0 20"
                 Source="unknown.png"
@@ -52,9 +52,7 @@
                        Margin="20 0 20 20"
                        FontFamily="Angsana New" 
                        FontSize="25" Foreground="#DDFFFFFF">
-                <TextBox.Background>
-                    <ImageBrush/>
-                </TextBox.Background>
+
             </TextBox>
 
             <!--กล่องรหัสผ่าน-->
@@ -66,31 +64,28 @@
                          FontSize="25"
                          materialDesign:HintAssist.Hint ="รหัสผ่าน"
                          Style="{StaticResource MaterialDesignFloatingHintPasswordBox}" Foreground="#DDFFFFFF" KeyDown="PasswordBox_KeyDown"/>
-
-
-            <!--ปุ่มควบคุม-->
             <StackPanel
                 Orientation="Horizontal"
-                HorizontalAlignment="Center"
-                Margin="0 30 0 0">
-
-                <!--ปุ่มล็อกอิน-->
+                Margin="168,50,169,0">
                 <Button Content="เข้าสู่ระบบ"
-                        Margin="0 0 20 20"
+                        Margin="0 0 0 20"
                         Cursor="Hand"
                         Click="Button_Click_1"/>
 
-                <!--ปุ่มปิดโปรแกรม-->
+                <!--ปุ่มปิดโปรแกรม
                 <Button 
                     Margin="0 0 0 20"
                     Content="ออกจากโปรแกรม"
                     Cursor="Hand"
                     Click="Button_Click"
-                    />
+                    />-->
 
 
 
             </StackPanel>
+
+
+            <!--ปุ่มควบคุม-->
 
         </StackPanel>
 
