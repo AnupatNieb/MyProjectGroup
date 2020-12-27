@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\niebz\\Desktop\\Program\\Program\\Program.csproj": {}
+    "C:\\Users\\cko78\\OneDrive\\Documents\\GitHub\\MyProjectGroup\\Test\\Program\\Program\\Program.csproj": {}
   },
   "projects": {
-    "C:\\Users\\niebz\\Desktop\\Program\\Program\\Program.csproj": {
+    "C:\\Users\\cko78\\OneDrive\\Documents\\GitHub\\MyProjectGroup\\Test\\Program\\Program\\Program.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\niebz\\Desktop\\Program\\Program\\Program.csproj",
+        "projectUniqueName": "C:\\Users\\cko78\\OneDrive\\Documents\\GitHub\\MyProjectGroup\\Test\\Program\\Program\\Program.csproj",
         "projectName": "Program",
-        "projectPath": "C:\\Users\\niebz\\Desktop\\Program\\Program\\Program.csproj",
-        "packagesPath": "C:\\Users\\niebz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\niebz\\Desktop\\Program\\Program\\obj\\",
+        "projectPath": "C:\\Users\\cko78\\OneDrive\\Documents\\GitHub\\MyProjectGroup\\Test\\Program\\Program\\Program.csproj",
+        "packagesPath": "C:\\Users\\cko78\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cko78\\OneDrive\\Documents\\GitHub\\MyProjectGroup\\Test\\Program\\Program\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\niebz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cko78\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -1,0 +1,207 @@
+﻿<Window x:Class="Program.MainMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Program"
+        mc:Ignorable="d"
+        Title="MainMenu" Height="1080" Width="1920"
+        WindowStyle="None" WindowState="Maximized" 
+        
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal" 
+        TextOptions.TextRenderingMode="Auto"        
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}">
+
+    <Grid>
+        <Grid Margin="0,0,1551,0"
+              Background="#FF716058">
+
+
+            <StackPanel HorizontalAlignment="Left" Height="1050" VerticalAlignment="Top" Width="422" Margin="0,0,-1,-1"/>
+
+            <!--เส้นสีขาว-->
+            <Rectangle HorizontalAlignment="Left"
+                       Height="15"
+                       Margin="-9,245,0,0"
+                       Stroke="#ffffff" 
+                       VerticalAlignment="Top"
+                       Width="361"
+                       Fill="White" RadiusX="10" RadiusY="10"
+                       />
+
+            <!--ปุ่มหน้าหลัก-->
+            <Button HorizontalAlignment="Left"
+                   Height="70"
+                   Margin="129,300,0,0"
+                    Padding="0"
+                   VerticalAlignment="Top"
+                   Width="137"
+                   FontFamily="FC Galaxy"
+                   FontSize="72"
+                   Background="Transparent"
+                   BorderBrush="Transparent"
+                   Foreground="White">
+                <TextBlock >
+                       หน้าหลัก
+                </TextBlock>
+            </Button>
+
+
+
+
+
+            <!--ปุ่มเมนู-->
+            <Button
+                   HorizontalAlignment="Left"
+                   Height="77"
+                   Margin="129,400,0,0"
+                   Padding="0"
+                   VerticalAlignment="Top"
+                   Width="167"
+                   FontFamily="FC Galaxy"
+                   FontSize="72"
+                   Background="Transparent"
+                   BorderBrush="Transparent"
+                   Foreground="White"
+                   >
+                <TextBlock >
+                       เมนูต่าง ๆ
+                </TextBlock>
+            </Button>
+
+            <!--ปุ่มออเดอร์-->
+            <Button
+                    HorizontalAlignment="Left"
+                   Height="70"
+                   Margin="120,500,0,0"
+                   Padding="0"
+                   VerticalAlignment="Top"
+                   Width="248"
+                   FontFamily="FC Galaxy"
+                   FontSize="72"
+                   Background="Transparent"
+                   BorderBrush="Transparent"
+                   Foreground="White">
+                <TextBlock >
+                       ออเดอร์อาหาร
+                </TextBlock>
+            </Button>
+
+            <!--ปุ่มบัญชี-->
+            <Button 
+                     HorizontalAlignment="Left"
+                   Height="70"
+                   Padding="0"
+                   Margin="132,600,0,0"
+                   VerticalAlignment="Top"
+                   Width="144"
+                   FontFamily="FC Galaxy"
+                   FontSize="72"
+                   Background="Transparent"
+                   BorderBrush="Transparent"
+                   Foreground="White">
+                <TextBlock>
+                       บัญชีร้าน
+                </TextBlock>
+            </Button>
+
+            <!--ปุ่มประวัติ-->
+            <Button
+                   HorizontalAlignment="Left"
+                   Height="70"
+                   Margin="132,700,0,0"
+                Padding="0"
+                   VerticalAlignment="Top"
+                   Width="222"
+                   FontFamily="FC Galaxy"
+                   FontSize="72"
+                   Background="Transparent"
+                   BorderBrush="Transparent"
+                   Foreground="White">
+                <TextBlock >
+                       ประวัติออเดอร์
+                </TextBlock>
+            </Button>
+
+            <!--ปุ่มพนักงาน-->
+            <Button 
+                   HorizontalAlignment="Left"
+                   Height="70"
+                   Margin="120,800,0,0"
+                   VerticalAlignment="Top"
+                   Width="157"
+                   FontFamily="FC Galaxy"
+                   FontSize="72"
+                   Background="Transparent"
+                   BorderBrush="Transparent"
+                   Foreground="White">
+                <TextBlock >
+                       พนักงาน
+                </TextBlock>
+            </Button>
+
+            <!--ส่วนบน-->
+
+            <!--รูปโปรไฟล์-->
+            <Ellipse 
+                     x:Name="IMAGE_USER"
+                     Height="150" Width="150"
+                     VerticalAlignment="Top"
+                     HorizontalAlignment="Left"
+                     Margin="20 50 0 0">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="user.jpg"/>
+                </Ellipse.Fill>
+            </Ellipse>
+
+            <!--ชื่อ-->
+            <Label x:Name="NAME_USER"
+                   Content="Label"
+                   HorizontalAlignment="Right"
+                   Height="40"
+                   Margin="184,39,0,0"
+                   VerticalAlignment="Top"
+                   Width="199"/>
+
+            <!--ข้อตวามตำแหน่ง-->
+            <Label x:Name="POSITION_USER"
+                   Content="Label"
+                   HorizontalAlignment="Left"
+                   Height="41"
+                   Margin="211,116,0,0"
+                   VerticalAlignment="Top"
+                   Width="143"/>
+
+
+            <!--ส่วนล่าง-->
+            <!--ปุ่มออกจากโปรแกรม-->
+            <Button Content="Exit"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Bottom"
+                    Margin="142,0,143,19"
+                    FontFamily="FC Galaxy"
+                    FontSize="42"
+                    Background="#ffffff"
+                    BorderBrush="Transparent" Height="48" Width="136"
+                    materialDesign:ButtonAssist.CornerRadius="25"
+                    />
+
+
+            <StackPanel/>
+            <Image Margin="51,309,258,711" Stretch="Fill" Source="pack://siteoforigin:,,,/home_60px.png"/>
+            <Image Margin="51,417,258,603" Stretch="Fill" Source="pack://siteoforigin:,,,/restaurant_menu_60px.png"/>
+            <Image Margin="55,505,254,515" Stretch="Fill" Source="pack://siteoforigin:,,,/order_history_60px.png"/>
+            <Image Margin="51,592,244,414" Stretch="Fill" Source="pack://siteoforigin:,,,/sidebar_menu_100px.png"/>
+            <Image Margin="67,1002,235,11" Stretch="Fill" Source="pack://siteoforigin:,,,/logout_rounded_left_128px.png"/>
+            <Image Margin="63,706,246,314" Stretch="Fill" Source="pack://siteoforigin:,,,/fund_accounting_60px.png"/>
+
+        </Grid>
+        <Image Margin="60,811,1800,209" Stretch="Fill" Source="pack://siteoforigin:,,,/name_tag_60px.png"/>
+
+    </Grid>
+</Window>
