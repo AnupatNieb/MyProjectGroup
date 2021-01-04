@@ -1,0 +1,182 @@
+﻿<Window x:Class="Program.Dashboard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Program"
+        mc:Ignorable="d"
+        Title="Dashboard" Height="1080" Width="1920"
+        
+        WindowStyle="None" WindowState="Maximized"
+        
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal" 
+        TextOptions.TextRenderingMode="Auto"        
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}" KeyDown="Window_KeyDown">
+    <Grid>
+        <!--#region MenuBar-->
+        <StackPanel HorizontalAlignment="Left"
+                Width="350"
+                Background="#AA8976">
+
+            <!--#region Top-->
+
+            <Grid Height="132"
+              Margin="0 20 0 0">
+
+                <!--IMG-->
+                <Ellipse 
+                     x:Name="user_img"
+                     Height="100" Width="100"
+                     HorizontalAlignment="Left"
+                     Margin="20,20,0,15">
+                    <Ellipse.Fill>
+                        <ImageBrush ImageSource="user.png"/>
+                    </Ellipse.Fill>
+                </Ellipse>
+
+                <!--Username-->
+                <Label x:Name="user_name"
+               Content="Anpat Kaewmee"
+               Width="189"
+               HorizontalAlignment="Right"
+               HorizontalContentAlignment="Center"
+               Margin="0,48,21,51"
+               Foreground="#ffffff"
+               FontFamily="Century Gothic"
+               FontWeight="Bold"
+               FontSize="20" RenderTransformOrigin="0.5,0.5"
+               >
+                    <Label.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform AngleY="0.251"/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="-0.329"/>
+                        </TransformGroup>
+                    </Label.RenderTransform>
+                </Label>
+
+                <!--Position-->
+                <Label x:Name="user_position"
+               Content="CEO"
+               Width="189"
+               HorizontalAlignment="Right"
+               HorizontalContentAlignment="Center"
+               VerticalAlignment="Top"
+               Margin="0,83,21,0"
+               Foreground="#ffffff"
+               FontFamily="Century Gothic"
+               FontWeight="Bold"
+               FontSize="15" RenderTransformOrigin="0.5,0.5"
+               >
+                    <Label.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform AngleY="0.251"/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="-0.329"/>
+                        </TransformGroup>
+                    </Label.RenderTransform>
+                </Label>
+
+            </Grid>
+
+            <!--#endregion-->
+
+
+            <!--#region Buttons-->
+            <!--Dashboard-->
+            <Button x:Name="dashboard_btn"
+                Style="{StaticResource MaterialDesignFlatButton}"
+                ToolTip="MaterialDesignFlatButton"
+                Height="66"
+                Margin="0 50 0 0"
+                Foreground="White"
+                FontSize="30"
+                FontFamily="Century Gothic" Content="Dashboard" Click="dashboard_btn_Click"/>
+
+            <!--Menu-->
+            <Button x:Name="menu_btn"
+                Style="{StaticResource MaterialDesignFlatButton}"
+                ToolTip="MaterialDesignFlatButton"
+                Height="66"
+                Margin="0 50 0 0"
+                Foreground="White"
+                FontSize="30"
+                FontFamily="Century Gothic" Content="Menu" Click="menu_btn_Click"/>
+
+            <!--Order-->
+            <Button x:Name="order_btn"
+                Style="{StaticResource MaterialDesignFlatButton}"
+                ToolTip="MaterialDesignFlatButton"
+                Height="66"
+                Margin="0 50 0 0"
+                Foreground="White"
+                FontSize="30"
+                FontFamily="Century Gothic" Content="Order"/>
+
+            <!--Account-->
+            <Button x:Name="account_btn"
+                Style="{StaticResource MaterialDesignFlatButton}"
+                ToolTip="MaterialDesignFlatButton"
+                Height="66"
+                Margin="0 50 0 0"
+                Foreground="White"
+                FontSize="30"
+                FontFamily="Century Gothic" Content="Account"/>
+
+            <!--History-->
+            <Button x:Name="history_btn"
+                Style="{StaticResource MaterialDesignFlatButton}"
+                ToolTip="MaterialDesignFlatButton"
+                Height="66"
+                Margin="0 50 0 0"
+                Foreground="White"
+                FontSize="30"
+                FontFamily="Century Gothic" Content="History"/>
+
+            <!--Employee-->
+            <Button x:Name="employee_btn"
+                Style="{StaticResource MaterialDesignFlatButton}"
+                ToolTip="MaterialDesignFlatButton"
+                Height="66"
+                Margin="0 50 0 0"
+                Foreground="White"
+                FontSize="30"
+                FontFamily="Century Gothic" Content="Employee"/>
+
+            <!--Exit-->
+            <Button x:Name="exit_btn"
+                Style="{StaticResource MaterialDesignFlatButton}"
+                ToolTip="MaterialDesignFlatButton"
+                Height="66"
+                Margin="0 170 0 0"
+                Foreground="White"
+                FontSize="25"
+                FontFamily="Century Gothic" Content="Exit" Click="exit_btn_Click"/>
+
+
+            <!--#endregion-->
+
+            <!--#endregion-->
+            
+           
+
+
+        </StackPanel>
+
+
+
+
+        <Frame HorizontalAlignment="Right"
+               Width="1570"
+               Name="SubPanel"
+               NavigationUIVisibility="Hidden"></Frame>
+    </Grid>
+
+</Window>
