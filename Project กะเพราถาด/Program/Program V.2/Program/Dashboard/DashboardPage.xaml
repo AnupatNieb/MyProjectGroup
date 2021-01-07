@@ -28,31 +28,55 @@
                Margin="30 0 0 0">Dashboard</TextBlock>
         </materialDesign:ColorZone>
 
-        <!--#region Total Seals-->
-        <StackPanel Background="#cccc" Margin="160,183,850,610"
-              >
+        <Grid Background="#FFF5ECEC">
+            <materialDesign:ColorZone Background="#AA8976"
+                                  Padding="5">
+                <TextBlock FontSize="70"
+               FontFamily="Chulabhorn Likit Display Medium"
+               Foreground="#ffff"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Top"
+               Margin="30 0 0 0">Dashboard</TextBlock>
+            </materialDesign:ColorZone>
 
-            <!--img-->
-            <Image Source="icon/sales.png"
-                   Width="150"
-                   Height="150"
-                   HorizontalAlignment="Right"
-                   Margin="0 68.5 50 0"/>
-        </StackPanel>
-        <!--#endregion-->
+            <!--#region Total Seals-->
 
-        <!--#region Total Order-->
-        <Grid Background="#cccc" Margin="880,183,130,610"
-              >
+            <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth4"
+                                 Padding="0"
+                                 Margin="160,183,850,610">
+                
+                <StackPanel Background="#ffffff">
 
-            <!--img-->
-            <Image Source="icon/order.png"
-                   Width="150"
-                   Height="150"
-                   HorizontalAlignment="Right"
-                   Margin="0 0 50 0"/>
+                <!--img-->
+                    <Image Source="C:\Users\niebz\Desktop\MyProjectGroup\Project กะเพราถาด\Program\Program V.2\Program\Dashboard\icon\sales.png"
+                           Width="150"
+                           Height="150"
+                           HorizontalAlignment="Right"
+                           Margin="0 65 50 0"/>
+                </StackPanel>
+                
+            </materialDesign:Card>
+                
+            <!--#endregion-->
+
+            <!--#region Total Order-->
+
+            <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth4"
+                                 Padding="0"
+                                 Margin="880,183,130,610">
+                <StackPanel Background="#ffffff" >
+
+                    <!--img-->
+                    <Image Source="C:\Users\niebz\Desktop\MyProjectGroup\Project กะเพราถาด\Program\Program V.2\Program\Dashboard\icon\order.png"
+                           Width="150"
+                           Height="150"
+                           HorizontalAlignment="Right"
+                           Margin="0 65 50 0"/>
+                </StackPanel>
+
+            </materialDesign:Card>
+            <!--#endregion-->
+
         </Grid>
-        <!--#endregion-->
-        
     </Grid>
 </Page>

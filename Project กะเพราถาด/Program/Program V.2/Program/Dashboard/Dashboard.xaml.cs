@@ -15,12 +15,12 @@ namespace Program
     /// <summary>
     /// Interaction logic for Dashboard.xaml
     /// </summary>
-    public partial class Dashboard1 : Window
+    public partial class Dashboard : Window
     {
-        public Dashboard1()
+        public Dashboard()
         {
             InitializeComponent();
-            SubPanel.Content = new Dashboard();
+            SubPanel.Content = new DashboardPage();
         }
 
         private void Window_KeyDown(object sender, KeyEventArgs e)

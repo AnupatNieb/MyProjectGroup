@@ -37,7 +37,7 @@ namespace Program
             while(reader.Read())
             {
                 Dashboard Dashboard = new Dashboard();
-                Dashboard.show();
+                Dashboard.Show();
             }
             
         }
