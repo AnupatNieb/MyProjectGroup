@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using MySql.Data.MySqlClient;
+using System.Data.SQLite;
 
 namespace Program
 {
@@ -21,23 +22,34 @@ namespace Program
     /// </summary>
     public partial class MainWindow : Window
     {
+
         public MainWindow()
         {
-            InitializeComponent();
+            InitializeComponent();    
+            
         }
 
         private void LoginButton_Click(object sender, RoutedEventArgs e)
         {
-            string sql = "SELECT * FROM db_username WHERE name_user ='" + UsernameBox.Text + "'AND password_user ='" + PasswordBox.Password+"'" ;
-            MySqlConnection con = new MySqlConnection("host = localhost; user = Admin01; password = Admin01; database = program");
-            MySqlCommand cmd = new MySqlCommand(sql, con);
+            string cs = @"URI=file:C:/Users/niebz/Desktop/MyProjectGroup/Project กะเพราถาด/Program/Program V.2/Program/Database.db";
+            using var con = new SQLiteConnection(cs);
             con.Open();
-            MySqlDataReader reader = cmd.ExecuteReader();
+            string stm = "SELECT * FROM Employee WHERE name_user ='" + UsernameBox.Text + "'AND password_user ='" + PasswordBox.Password + "'";
+            using var cmd = new SQLiteCommand(stm, con);
+            using SQLiteDataReader rdr = cmd.ExecuteReader();
 
-            while(reader.Read())
+
+            if (rdr.Read())
             {
                 Dashboard Dashboard = new Dashboard();
                 Dashboard.Show();
+            }
+
+            else
+            {
+                MessageBox.Show("กรุณากรอกข้อมูลใหม่อีกครั้ง");
+                UsernameBox.Text = "";
+                PasswordBox.Password = "";
             }
             
         }

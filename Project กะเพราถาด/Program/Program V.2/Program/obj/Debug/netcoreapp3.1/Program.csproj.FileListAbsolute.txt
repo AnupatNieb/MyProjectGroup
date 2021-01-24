@@ -80,7 +80,6 @@ C:\Users\niebz\Desktop\MyProjectGroup\Project กะเพราถาด\Progra
 C:\Users\niebz\Desktop\MyProjectGroup\Project กะเพราถาด\Program\Program V.2\Program\obj\Debug\netcoreapp3.1\Program.dll
 C:\Users\niebz\Desktop\MyProjectGroup\Project กะเพราถาด\Program\Program V.2\Program\obj\Debug\netcoreapp3.1\Program.pdb
 C:\Users\niebz\Desktop\MyProjectGroup\Project กะเพราถาด\Program\Program V.2\Program\obj\Debug\netcoreapp3.1\Program.genruntimeconfig.cache
-C:\Users\niebz\Desktop\MyProjectGroup\Project กะเพราถาด\Program\Program V.2\Program\obj\Debug\netcoreapp3.1\Program.csprojAssemblyReference.cache
 C:\Users\niebz\Desktop\MyProjectGroup-b0e80a128627e3e797489704916bcc8334d8822b\Project กะเพราถาด\Program\Program V.2\Program\bin\Debug\netcoreapp3.1\Program.exe
 C:\Users\niebz\Desktop\MyProjectGroup-b0e80a128627e3e797489704916bcc8334d8822b\Project กะเพราถาด\Program\Program V.2\Program\bin\Debug\netcoreapp3.1\Program.deps.json
 C:\Users\niebz\Desktop\MyProjectGroup-b0e80a128627e3e797489704916bcc8334d8822b\Project กะเพราถาด\Program\Program V.2\Program\bin\Debug\netcoreapp3.1\Program.runtimeconfig.json
@@ -121,3 +120,19 @@ C:\Users\niebz\Desktop\MyProjectGroup-b0e80a128627e3e797489704916bcc8334d8822b\P
 C:\Users\niebz\Desktop\MyProjectGroup-b0e80a128627e3e797489704916bcc8334d8822b\Project กะเพราถาด\Program\Program V.2\Program\obj\Debug\netcoreapp3.1\Program.dll
 C:\Users\niebz\Desktop\MyProjectGroup-b0e80a128627e3e797489704916bcc8334d8822b\Project กะเพราถาด\Program\Program V.2\Program\obj\Debug\netcoreapp3.1\Program.pdb
 C:\Users\niebz\Desktop\MyProjectGroup-b0e80a128627e3e797489704916bcc8334d8822b\Project กะเพราถาด\Program\Program V.2\Program\obj\Debug\netcoreapp3.1\Program.genruntimeconfig.cache
+C:\Users\niebz\Desktop\MyProjectGroup\Project กะเพราถาด\Program\Program V.2\Program\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+C:\Users\niebz\Desktop\MyProjectGroup\Project กะเพราถาด\Program\Program V.2\Program\bin\Debug\netcoreapp3.1\EntityFramework.dll
+C:\Users\niebz\Desktop\MyProjectGroup\Project กะเพราถาด\Program\Program V.2\Program\bin\Debug\netcoreapp3.1\System.Data.SQLite.dll
+C:\Users\niebz\Desktop\MyProjectGroup\Project กะเพราถาด\Program\Program V.2\Program\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\niebz\Desktop\MyProjectGroup\Project กะเพราถาด\Program\Program V.2\Program\bin\Debug\netcoreapp3.1\System.Data.SQLite.EF6.dll
+C:\Users\niebz\Desktop\MyProjectGroup\Project กะเพราถาด\Program\Program V.2\Program\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\niebz\Desktop\MyProjectGroup\Project กะเพราถาด\Program\Program V.2\Program\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\niebz\Desktop\MyProjectGroup\Project กะเพราถาด\Program\Program V.2\Program\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\niebz\Desktop\MyProjectGroup\Project กะเพราถาด\Program\Program V.2\Program\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\SQLite.Interop.dll
+C:\Users\niebz\Desktop\MyProjectGroup\Project กะเพราถาด\Program\Program V.2\Program\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\SQLite.Interop.dll
+C:\Users\niebz\Desktop\MyProjectGroup\Project กะเพราถาด\Program\Program V.2\Program\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SQLite.Interop.dll
+C:\Users\niebz\Desktop\MyProjectGroup\Project กะเพราถาด\Program\Program V.2\Program\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SQLite.Interop.dll
+C:\Users\niebz\Desktop\MyProjectGroup\Project กะเพราถาด\Program\Program V.2\Program\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\niebz\Desktop\MyProjectGroup\Project กะเพราถาด\Program\Program V.2\Program\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\niebz\Desktop\MyProjectGroup\Project กะเพราถาด\Program\Program V.2\Program\bin\Debug\netcoreapp3.1\Database.db
+C:\Users\niebz\Desktop\MyProjectGroup\Project กะเพราถาด\Program\Program V.2\Program\obj\Debug\netcoreapp3.1\Program.csprojAssemblyReference.cache
