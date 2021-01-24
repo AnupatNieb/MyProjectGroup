@@ -31,7 +31,7 @@ namespace Program
 
         private void LoginButton_Click(object sender, RoutedEventArgs e)
         {
-            string cs = @"URI=file:C:/Users/niebz/Desktop/MyProjectGroup/Project กะเพราถาด/Program/Program V.2/Program/Database.db";
+            string cs = @"URI=file:./Database.db";
             using var con = new SQLiteConnection(cs);
             con.Open();
             string stm = "SELECT * FROM Employee WHERE name_user ='" + UsernameBox.Text + "'AND password_user ='" + PasswordBox.Password + "'";
