@@ -25,8 +25,8 @@ namespace Program
 
         public MainWindow()
         {
-            InitializeComponent();    
-            
+            InitializeComponent();
+
         }
 
         private void LoginButton_Click(object sender, RoutedEventArgs e)
@@ -56,6 +56,9 @@ namespace Program
 
         private void Window_KeyDown(object sender, KeyEventArgs e)
         {
+            if (e.Key == Key.Enter)
+                LoginButton_Click(sender, e);
+
             if (e.Key == Key.Escape)
                 this.Close();
                 
