@@ -5,7 +5,9 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Program"
       mc:Ignorable="d" 
-      d:DesignHeight="1200" d:DesignWidth="1250"
+      Height="Auto" Width="Auto"
+      VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+      Margin="0"
       Title="DashboardPage"
       
       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
@@ -17,11 +19,11 @@
         Background="{DynamicResource MaterialDesignPaper}"
         FontFamily="{DynamicResource MaterialDesignFont}">
 
-    <DockPanel>
-    <Grid Background="#ffff"
-          DockPanel.Dock="Left">
+    
+    <Grid Background="#ffff">
         <materialDesign:ColorZone Background="#AA8976"
-                                  Padding="5">
+                                  Padding="5"
+                                  >
             <TextBlock FontSize="70"
                FontFamily="Chulabhorn Likit Display Medium"
                Foreground="#ffff"
@@ -81,5 +83,5 @@
 
         </Grid>
     </Grid>
-    </DockPanel>
+    
 </Page>

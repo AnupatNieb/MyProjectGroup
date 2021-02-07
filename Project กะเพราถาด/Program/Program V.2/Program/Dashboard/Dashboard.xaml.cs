@@ -21,6 +21,7 @@ namespace Program
         {
             InitializeComponent();
             SubPanel.Content = new DashboardPage();
+            
         }
 
         private void Window_KeyDown(object sender, KeyEventArgs e)

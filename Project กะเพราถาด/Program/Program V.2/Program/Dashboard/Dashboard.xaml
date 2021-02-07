@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Program"
         mc:Ignorable="d"
-        Title="Dashboard" Height="1200" Width="1600"
+        Title="Dashboard" Height="1000" Width="1600"
         
-        WindowStyle="None" WindowState="Normal"
+        WindowStyle="SingleBorderWindow" WindowState="Normal"
         
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         TextElement.Foreground="{DynamicResource MaterialDesignBody}"
@@ -157,7 +157,7 @@
                 Style="{StaticResource MaterialDesignFlatButton}"
                 ToolTip="MaterialDesignFlatButton"
                 Height="66"
-                Margin="0 170 0 0"
+                Margin="0 70 0 0"
                 Foreground="White"
                 FontSize="25"
                 FontFamily="Century Gothic" Content="Exit" Click="exit_btn_Click"/>
@@ -173,10 +173,14 @@
         </StackPanel>
         
         <Frame DockPanel.Dock="Right"
-               HorizontalAlignment="Right"
+               HorizontalAlignment="Stretch"
+               VerticalAlignment="Stretch"
+               HorizontalContentAlignment="Stretch"
+               VerticalContentAlignment="Stretch"
                Width="1250"
                Name="SubPanel"
-               NavigationUIVisibility="Hidden"></Frame>
+               NavigationUIVisibility="Hidden"
+               ></Frame>
 
         </DockPanel>
 
