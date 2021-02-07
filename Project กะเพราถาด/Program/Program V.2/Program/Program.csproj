@@ -33,6 +33,7 @@
 
   <ItemGroup>
     <Folder Include="Dashboard\icon\" />
+    <Folder Include="Order\" />
   </ItemGroup>
 
   <ItemGroup>

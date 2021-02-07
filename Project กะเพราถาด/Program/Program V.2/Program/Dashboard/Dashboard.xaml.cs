@@ -15,9 +15,9 @@ namespace Program
     /// <summary>
     /// Interaction logic for Dashboard.xaml
     /// </summary>
-    public partial class Dashboard : Window
+    public partial class Dashboard1 : Window
     {
-        public Dashboard()
+        public Dashboard1()
         {
             InitializeComponent();
             SubPanel.Content = new DashboardPage();

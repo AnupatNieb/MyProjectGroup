@@ -41,8 +41,9 @@ namespace Program
 
             if (rdr.Read())
             {
-                Dashboard Dashboard = new Dashboard();
-                Dashboard.Show();
+                Dashboard1 dashboard= new Dashboard1();
+                dashboard.Show();
+                this.Close();
             }
 
             else

@@ -5,7 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Program"
       mc:Ignorable="d" 
-      d:DesignHeight="1080" d:DesignWidth="1570"
+      d:DesignHeight="1200" d:DesignWidth="1250"
       Title="DashboardPage"
       
       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
@@ -17,7 +17,9 @@
         Background="{DynamicResource MaterialDesignPaper}"
         FontFamily="{DynamicResource MaterialDesignFont}">
 
-    <Grid Background="#ffff">
+    <DockPanel>
+    <Grid Background="#ffff"
+          DockPanel.Dock="Left">
         <materialDesign:ColorZone Background="#AA8976"
                                   Padding="5">
             <TextBlock FontSize="70"
@@ -45,7 +47,7 @@
                                  Padding="0"
                                  Margin="160,183,850,610">
                 
-                <StackPanel Background="#ffffff">
+                <Grid Background="#ffffff" Margin="0,10,-55,0">
 
                 <!--img-->
                     <Image Source="C:\Users\niebz\Desktop\MyProjectGroup\Project กะเพราถาด\Program\Program V.2\Program\Dashboard\icon\sales.png"
@@ -53,7 +55,7 @@
                            Height="150"
                            HorizontalAlignment="Right"
                            Margin="0 65 50 0"/>
-                </StackPanel>
+                </Grid>
                 
             </materialDesign:Card>
                 
@@ -63,8 +65,8 @@
 
             <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth4"
                                  Padding="0"
-                                 Margin="880,183,130,610">
-                <StackPanel Background="#ffffff" >
+                                 Margin="735,183,130,610">
+                <Grid Background="#ffffff" >
 
                     <!--img-->
                     <Image Source="C:\Users\niebz\Desktop\MyProjectGroup\Project กะเพราถาด\Program\Program V.2\Program\Dashboard\icon\order.png"
@@ -72,11 +74,12 @@
                            Height="150"
                            HorizontalAlignment="Right"
                            Margin="0 65 50 0"/>
-                </StackPanel>
+                </Grid>
 
             </materialDesign:Card>
             <!--#endregion-->
 
         </Grid>
     </Grid>
+    </DockPanel>
 </Page>

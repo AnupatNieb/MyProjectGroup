@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Program"
         mc:Ignorable="d"
-        Title="MainWindow" Height="1080" Width="1920"
-        WindowStyle="None" WindowState="Maximized" 
+        Title="MainWindow" Height="1200 " Width="1600 "
+        WindowStyle="SingleBorderWindow" WindowState="Normal" 
         
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         TextElement.Foreground="{DynamicResource MaterialDesignBody}"
@@ -15,7 +15,7 @@
         TextOptions.TextFormattingMode="Ideal" 
         TextOptions.TextRenderingMode="Auto"        
         Background="{DynamicResource MaterialDesignPaper}"
-        FontFamily="{DynamicResource MaterialDesignFont}" KeyDown="Window_KeyDown">
+        FontFamily="{DynamicResource MaterialDesignFont}" KeyDown="Window_KeyDown" Topmost="True" WindowStartupLocation="CenterOwner">
     <Grid>
         
         <!--พื้นหลัง-->
